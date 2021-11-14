@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HCI_NaVi.MainPage">
+
+    <StackLayout >
+        <StackLayout>
+            <Label Text="Введите номер кабинета" Margin="5" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="cab" WidthRequest="40" Keyboard="Numeric" MaxLength="3"/>
+        </StackLayout>
+
+        <Button Text="Проложить маршрут" Clicked="Button_Clicked" Margin="10"/>
+        <Label Text="Маршрут до кабинета:" Margin="5" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        <Label x:Name="way" Margin="5" HorizontalTextAlignment="Center"/>
+        
+    </StackLayout>
+
+</ContentPage>
