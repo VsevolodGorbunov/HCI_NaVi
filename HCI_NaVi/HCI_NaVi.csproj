@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
-    <ApplicationIcon />
+    <ApplicationIcon>1.ico</ApplicationIcon>
     <Win32Resource></Win32Resource>
   </PropertyGroup>
 

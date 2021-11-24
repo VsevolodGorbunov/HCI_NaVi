@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI_NaVi.Android", "HCI_NaV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI_NaVi.iOS", "HCI_NaVi.iOS\HCI_NaVi.iOS.csproj", "{FADC3F47-8417-407F-936F-2EB8DFAA65FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCI_NaVi", "HCI_NaVi\HCI_NaVi.csproj", "{E32D3638-B514-4BAA-8108-D206A21B5036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HCI_NaVi", "HCI_NaVi\HCI_NaVi.csproj", "{E32D3638-B514-4BAA-8108-D206A21B5036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4944E4F1-06E3-499B-8605-5AFDA318D070}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
